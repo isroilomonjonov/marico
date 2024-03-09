@@ -2,7 +2,127 @@
 @import "./fonts.css";
 
 /* variables */
-@import "./variables.css";
+@import "./variable.css";
 
 /* initial-style */
 @import "./initial-style.css";
+
+/* container */
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 14rem;
+}
+
+/* button styles */
+.btn-type-one {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--second-text-color);
+}
+.btn-type-two {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--main-text-color);
+  padding: 1.2rem 2rem;
+  background-color: var(--second-color);
+  border-radius: 0.5rem;
+}
+/* navbar start */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+.logo {
+  width: 18rem;
+  height: 5rem;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav-item {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--second-text-color);
+}
+.active {
+  color: var(--second-color);
+}
+.burger {
+  display: none;
+}
+.buttons-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.dropbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  border-radius: 0.5rem;
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 1220px) {
+  .container {
+    padding: 0 8rem;
+  }
+  .burger {
+    display: block;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 4rem;
+  }
+}

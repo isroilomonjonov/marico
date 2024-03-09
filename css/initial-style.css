@@ -73,4 +73,10 @@ html {
 body {
   box-sizing: border-box;
   border: none;
+  background-color: var(--main-color);
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
 }
