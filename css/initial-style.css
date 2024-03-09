@@ -67,12 +67,10 @@ html,
 body {
   height: 100%;
 }
-
+html {
+  font-size: 10px;
+}
 body {
   box-sizing: border-box;
   border: none;
-}
-
-#root {
-  height: 100vh;
 }
