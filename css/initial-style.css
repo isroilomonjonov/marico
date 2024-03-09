@@ -75,6 +75,13 @@ body {
   border: none;
   background-color: var(--main-color);
 }
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 2px;
+}
 @media (max-width: 800px) {
   html {
     font-size: 8px;

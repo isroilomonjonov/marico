@@ -306,7 +306,6 @@ main {
   line-height: 2.5rem;
   color: var(--main-text-color);
   display: flex;
-  text-align: center;
   margin-bottom: 1rem;
   gap: 1rem;
 }
@@ -397,9 +396,68 @@ main {
   text-align: center;
 }
 
+/* third step */
+
+.third-step {
+  margin-top: 15rem;
+}
+.third-step__first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.third-step__first-section_main-text {
+  font-family: "Poppins";
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: var(--main-text-color);
+  text-align: center;
+}
+.third-step__first-section_main-text-desc {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+  color: var(--second-text-color);
+  max-width: 92rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.third-step__second-section {
+  margin-top: 18rem;
+  display: flex;
+}
+.third-step__second-section h3 {
+  font-family: "Poppins";
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: var(--main-text-color);
+  margin-bottom: 3rem;
+}
+.third-step__second-section__left-section__topic {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 4rem;
+  color: var(--main-text-color);
+  margin-bottom: 8rem;
+}
+.third-step__second-section__right-section-image {
+  position: absolute;
+  left: 100%;
+  transform: translateX(-100%);
+  max-width: 80rem;
+}
 /* media responsive */
 @media (max-width: 1430px) {
   .first-step__second-section__right-section-image {
+    max-width: 60rem;
+  }
+  .third-step__second-section__right-section-image {
     max-width: 60rem;
   }
 }
@@ -413,6 +471,9 @@ main {
   .first-step__second-section__right-section-image {
     max-width: 50rem;
   }
+  .third-step__second-section__right-section-image {
+    max-width: 50rem;
+  }
 }
 @media (max-width: 1120px) {
   h1 {
@@ -420,7 +481,17 @@ main {
     font-weight: 700;
     line-height: 8rem;
   }
+  .first-step__second-section {
+    margin-top: 5rem;
+  }
+  .third-step__second-section {
+    margin-top: 5rem;
+  }
   .first-step__second-section h3 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .third-step__second-section h3 {
     font-size: 5.5rem;
     line-height: 8rem;
   }
@@ -435,6 +506,10 @@ main {
     font-size: 5.5rem;
     line-height: 8rem;
   }
+  .third-step__first-section_main-text {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
   .creators-love-marico__container_item__main {
     font-size: 2.5rem;
   }
@@ -445,7 +520,20 @@ main {
     position: static;
     transform: none;
   }
+  .second-step {
+    margin-top: 15rem;
+  }
+  .third-step__second-section__right-section-image {
+    position: static;
+    transform: none;
+  }
   .first-step__second-section {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .third-step__second-section {
     flex-direction: column-reverse;
     gap: 5rem;
     align-items: center;
@@ -502,11 +590,19 @@ main {
     padding: 1.2rem 5rem;
     border-radius: 1rem;
   }
+  .extra-large-btn {
+    padding: 1.5rem 6rem;
+    font-size: 1.8rem;
+  }
   .creators-love-marico_main-text {
     font-size: 4.5rem;
     line-height: 8rem;
   }
   .first-step__first-section_main-text {
+    font-size: 4.5rem;
+    line-height: 8rem;
+  }
+  .third-step__first-section_main-text {
     font-size: 4.5rem;
     line-height: 8rem;
   }
