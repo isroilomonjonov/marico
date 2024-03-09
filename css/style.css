@@ -189,9 +189,67 @@ h1 span {
     display: none;
   }
 }
-
+@media (max-width: 1120px) {
+  h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 8rem;
+  }
+}
+@media (max-width: 916px) {
+  h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 8rem;
+  }
+  .btn-type-one {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .btn-type-two {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .btn-type-three {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .hero-main-div-second-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .hero-main-div-second-text span {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .hero-main-div-first-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+  }
+  .hero-btn {
+    padding: 1.2rem 5rem;
+    border-radius: 1rem;
+  }
+}
 @media (max-width: 600px) {
   .container {
-    padding: 0 4rem;
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 340px) {
+  .container {
+    padding: 1rem;
+  }
+  .burger {
+    position: absolute;
+    left: 1rem;
+  }
+  nav {
+    padding: 2rem 0;
+    justify-content: center;
+  }
+  .nav-btn-group {
+    display: none;
   }
 }
