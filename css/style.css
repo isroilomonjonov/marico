@@ -12,7 +12,7 @@
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0 10rem;
+  padding: 0 8rem;
   position: relative;
 }
 
@@ -48,6 +48,10 @@
 .large-btn {
   padding: 1.5rem 6rem;
   border-radius: 1rem;
+}
+.extra-large-btn {
+  padding: 2rem 7rem;
+  font-size: 2rem;
 }
 /* navbar start */
 
@@ -327,6 +331,74 @@ main {
   transform: translateX(-100%);
   max-width: 80rem;
 }
+
+/* second step */
+.second-step {
+  margin-top: 25rem;
+}
+.second-step__first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.second-step__first-section_main-text {
+  font-family: "Poppins";
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: var(--main-text-color);
+  text-align: center;
+}
+.second-step__first-section_main-text-desc {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+  color: var(--second-text-color);
+  max-width: 75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.second-step__second-section {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.second-step__second-section__container {
+  background-color: #0d0d0d;
+  width: 50%;
+  padding: 3rem;
+}
+.second-step__second-section__container h3 {
+  font-family: "Poppins";
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 9rem;
+  color: var(--second-text-color);
+}
+.second-step__second-section__container__topic {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+  color: var(--third-text-color);
+}
+.marked-white {
+  color: var(--main-text-color);
+}
+.second-step__second-section__container__image {
+  width: 100%;
+  position: relative;
+  left: 3rem;
+  top: 3rem;
+}
+.second-step__btn-container {
+  margin-top: 5rem;
+  text-align: center;
+}
 /* media responsive */
 @media (max-width: 1430px) {
   .first-step__second-section__right-section-image {
@@ -381,6 +453,21 @@ main {
     align-items: center;
     justify-content: center;
   }
+  .second-step__first-section_main-text {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .second-step__first-section_main-text-desc {
+    font-size: 2rem;
+  }
+  .second-step__second-section__container h3 {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+  .second-step__second-section__container__topic {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 @media (max-width: 916px) {
   h1 {
@@ -427,6 +514,13 @@ main {
   }
   .creators-love-marico__container_item__main {
     font-size: 2rem;
+  }
+  .second-step__second-section {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .second-step__second-section__container {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
