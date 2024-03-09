@@ -12,25 +12,36 @@
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0 14rem;
+  padding: 0 10rem;
 }
 
 /* button styles */
 .btn-type-one {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   line-height: 3rem;
   color: var(--second-text-color);
 }
 .btn-type-two {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   line-height: 3rem;
   color: var(--main-text-color);
-  padding: 1.2rem 2rem;
+  padding: 1rem 1.5rem;
   background-color: var(--second-color);
+  border-radius: 0.5rem;
+}
+.btn-type-three {
+  font-family: "Poppins";
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--second-text-color);
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid var(--second-text-color);
   border-radius: 0.5rem;
 }
 /* navbar start */
@@ -42,18 +53,18 @@ nav {
   padding: 4rem 0;
 }
 .logo {
-  width: 18rem;
+  width: 16rem;
   height: 5rem;
 }
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 .nav-item {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 3rem;
   color: var(--second-text-color);
@@ -68,7 +79,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 2rem;
 }
 .dropbtn {
   display: flex;
@@ -109,10 +120,68 @@ nav {
   border-radius: 0.5rem;
 }
 
+/* hero start */
+.hero {
+  margin-top: 7rem;
+}
+.hero-main-div-first-text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px;
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: var(--main-text-color);
+  margin-bottom: 5rem;
+}
+.hero-btn {
+  padding: 1.5rem 6rem;
+  border-radius: 1rem;
+}
+h1 {
+  font-family: "Poppins";
+  font-size: 9rem;
+  font-weight: 700;
+  line-height: 10rem;
+  color: var(--main-text-color);
+  text-align: center;
+  margin-bottom: 10rem;
+}
+h1 span {
+  background-size: 100%;
+  background-repeat: repeat;
+  background: linear-gradient(
+    90deg,
+    rgb(254, 103, 131) 1.9%,
+    rgb(255, 191, 132) 97.1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.hero-main-div-second-text {
+  margin-top: 1.5rem;
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: var(--second-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.hero-main-div-second-text span {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: var(--main-text-color);
+}
+
 @media (max-width: 1220px) {
-  .container {
-    padding: 0 8rem;
-  }
   .burger {
     display: block;
   }
