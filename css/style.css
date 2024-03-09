@@ -452,6 +452,25 @@ main {
   transform: translateX(-100%);
   max-width: 80rem;
 }
+
+/* exports agree */
+
+.exports-agree {
+  margin-top: 25rem;
+}
+.exports-agree h3 {
+  font-family: "Poppins";
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: var(--main-text-color);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.exports-agree__image {
+  width: 100%;
+}
+
 /* media responsive */
 @media (max-width: 1430px) {
   .first-step__second-section__right-section-image {
@@ -491,6 +510,10 @@ main {
     font-size: 5.5rem;
     line-height: 8rem;
   }
+  .exports-agree h3 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
   .third-step__second-section h3 {
     font-size: 5.5rem;
     line-height: 8rem;
@@ -521,6 +544,9 @@ main {
     transform: none;
   }
   .second-step {
+    margin-top: 15rem;
+  }
+  .exports-agree {
     margin-top: 15rem;
   }
   .third-step__second-section__right-section-image {
@@ -615,6 +641,26 @@ main {
   }
   .second-step__second-section__container {
     width: 100%;
+  }
+  .second-step__second-section__container h3 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .second-step__first-section_main-text {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .third-step__second-section h3 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .exports-agree h3 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .first-step__second-section h3 {
+    font-size: 4.5rem;
+    line-height: 5rem;
   }
 }
 @media (max-width: 600px) {
