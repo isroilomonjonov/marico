@@ -23,6 +23,14 @@
   font-weight: 500;
   line-height: 3rem;
   color: var(--second-text-color);
+  border: 1px solid transparent;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.btn-type-one:hover {
+  border: 1px solid var(--second-color);
+  color: var(--second-color);
 }
 .btn-type-two {
   font-family: "Poppins";
@@ -33,6 +41,13 @@
   padding: 1rem 1.5rem;
   background-color: var(--second-color);
   border-radius: 1rem;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.btn-type-two:hover {
+  background-color: transparent;
+  border: 1px solid var(--second-color);
+  color: var(--second-color);
 }
 .btn-type-three {
   font-family: "Poppins";
@@ -44,6 +59,11 @@
   background-color: transparent;
   border: 1px solid var(--second-text-color);
   border-radius: 1rem;
+  transition: all 0.5s;
+}
+.btn-type-three:hover {
+  border: 1px solid var(--second-color);
+  color: var(--second-color);
 }
 .large-btn {
   padding: 1.5rem 6rem;
@@ -76,6 +96,11 @@ nav {
   font-weight: 500;
   line-height: 3rem;
   color: var(--second-text-color);
+  border-top: 1px dashed transparent;
+  transition: all 0.5s;
+}
+.nav-item:hover {
+  border-top: 1px dashed var(--second-color);
 }
 .active {
   color: var(--second-color) !important;
@@ -514,6 +539,7 @@ main {
   font-weight: 700;
   line-height: 9rem;
   color: var(--main-text-color);
+  text-align: center;
 }
 .last-section-text-desc {
   font-family: "Poppins";
@@ -571,6 +597,11 @@ footer {
   font-weight: 500;
   line-height: 3rem;
   color: var(--second-text-color);
+  border-top: 1px dashed transparent;
+  transition: all 0.5s;
+}
+.footer__nav_item:hover {
+  border-top: 1px dashed var(--second-color);
 }
 
 /* media responsive */
