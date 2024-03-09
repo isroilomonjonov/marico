@@ -471,6 +471,30 @@ main {
   width: 100%;
 }
 
+/* helped info */
+
+.helped-info {
+  margin-top: 18rem;
+  height: 100vh;
+  background-image: url(../img/helped-image-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.helped-info h3 {
+  font-family: "Poppins";
+  font-size: 6.5rem;
+  font-weight: 600;
+  line-height: 8rem;
+  color: var(--main-text-color);
+  margin-bottom: 4rem;
+  text-align: center;
+  max-width: 122rem;
+  padding: 2rem;
+}
+
 /* media responsive */
 @media (max-width: 1430px) {
   .first-step__second-section__right-section-image {
@@ -507,6 +531,10 @@ main {
     margin-top: 5rem;
   }
   .first-step__second-section h3 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .helped-info h3 {
     font-size: 5.5rem;
     line-height: 8rem;
   }
@@ -646,6 +674,10 @@ main {
     font-size: 4.5rem;
     line-height: 5rem;
   }
+  .helped-info h3 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
   .second-step__first-section_main-text {
     font-size: 4.5rem;
     line-height: 5rem;
@@ -672,6 +704,12 @@ main {
   .creators-love-marico__container {
     flex-wrap: wrap;
   }
+  .first-step__second-section__right-section-image {
+    max-width: 300px;
+  }
+  .third-step__second-section__right-section-image {
+    max-width: 300px;
+  }
 }
 @media (max-width: 340px) {
   .container {
@@ -687,5 +725,13 @@ main {
   }
   .nav-btn-group {
     display: none;
+  }
+}
+@media (max-width: 300px) {
+  .first-step__second-section__right-section-image {
+    max-width: 180px;
+  }
+  .third-step__second-section__right-section-image {
+    max-width: 180px;
   }
 }

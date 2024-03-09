@@ -89,6 +89,6 @@ body {
 }
 @media (max-width: 300px) {
   html {
-    font-size: 6px;
+    font-size: 5px;
   }
 }
