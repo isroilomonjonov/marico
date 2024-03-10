@@ -848,6 +848,9 @@ footer {
   .container {
     padding: 0 2rem;
   }
+  .exports-agree__image {
+    transform: scaleY(1.4);
+  }
 }
 @media (max-width: 550px) {
   footer {
